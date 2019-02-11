@@ -1,0 +1,11 @@
+*, *::after, *::before { /* to reset all browsers to the same starting point, cos values vary slightly from browser to browser */
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    padding: 30px;
+    box-sizing: border-box;  /* so that border & padding are not added to total width and height of element */
+}

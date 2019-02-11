@@ -1,0 +1,23 @@
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+
+@import 'components/button';
+@import 'components/composition';
+@import 'components/feature-box';
+
+@import 'layout/grid';
+@import 'layout/header';
+
+@import 'pages/home';
+
+// package.json watches for changes and compiles scss to css. Just make sure you the script to do this: npm run compile:sass
+// I've also globally installed the node live-server.
+// Just use 'live-server' in command line to fire it up. This will serve and automatically refresh the page when changes are made.
+
+// Import scss files here, then and only need to ref main.css in the index file.
